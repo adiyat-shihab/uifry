@@ -2,32 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: "clashdisplayExtralight";
+  src: url("/fonts/ClashDisplay-Extralight.woff2");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "clashdisplayLight";
+  src: url("/fonts/ClashDisplay-Light.woff2");
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: "clashdisplayMedium";
+  src: url("/fonts/ClashDisplay-Medium.woff2");
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+  font-family: "clashdisplayRegular";
+  src: url("/fonts/ClashDisplay-Regular.woff2");
+}
+
+@font-face {
+  font-family: "clashdisplaySemibold";
+  src: url("/fonts/ClashDisplay-Semibold.woff2");
+}
+
+@font-face {
+  font-family: "clashdisplayVariable";
+  src: url("/fonts/ClashDisplay-Variable.woff2");
+}
+
+@font-face {
+  font-family: "clashdisplayBold";
+  src: url("/fonts/ClashDisplay-Bold.woff2");
+}
+
+.clashdisplayExtralight {
+  font-family: "clashdisplayExtralight", sans-serif;
+}
+
+.clashdisplayLight {
+  font-family: "clashdisplayLight", sans-serif;
+}
+
+.clashdisplayMedium {
+  font-family: "clashdisplayMedium", sans-serif;
+}
+
+.clashdisplayRegular {
+  font-family: "clashdisplayRegular", sans-serif;
+}
+
+.clashdisplaySemibold {
+  font-family: "clashdisplaySemibold", sans-serif;
+}
+
+.clashdisplayVariable {
+  font-family: "clashdisplayVariable", sans-serif;
+}
+
+.clashdisplayBold {
+  font-family: "clashdisplayBold", sans-serif;
 }
