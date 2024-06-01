@@ -13,6 +13,7 @@ const CustomPhoto: FC<CustomPhotoProps> = ({ src, customStyle }) => {
       width={500}
       height={500}
       className={customStyle}
+      priority={true}
     />
   );
 };
