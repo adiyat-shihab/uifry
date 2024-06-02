@@ -4,12 +4,12 @@ import SubHeading from "@/Components/Atoms/SubHeading";
 import GroupBorderEclipse from "@/Components/Molecules/GroupBorderEclipse";
 const Banner = () => {
   return (
-    <div className={" relative "}>
+    <div className={" relative  h-[90vh]"}>
       <CustomPhoto
         src={"Star.svg"}
         customStyle={"w-12 h-12 -rotate-45 top-8 left-11 absolute"}
       />
-      <div className={"flex items-center justify-between"}>
+      <div className={"flex relative items-center justify-between"}>
         <div className={"pl-[10.94rem]"}>
           <BigHeading
             content={"make the best financial decisions"}
