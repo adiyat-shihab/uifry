@@ -127,7 +127,7 @@ const Banner = () => {
             >
               <div className={"border-x-2 px-4 border-black"}>
                 <CustomPhoto
-                  src={"star.svg"}
+                  src={"Star.svg"}
                   customStyle={"h-[4.4375rem] w-12    "}
                 />
               </div>
