@@ -49,7 +49,7 @@ const Banner = () => {
           </div>
           <div className={"mt-40 absolute"}>
             <CustomPhoto
-              src={"star.svg"}
+              src={"Star.svg"}
               customStyle={"absolute h-12 w-12 -top-24 left-32 rotate-[45deg] "}
             />
             <div
