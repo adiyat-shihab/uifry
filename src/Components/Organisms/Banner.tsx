@@ -59,7 +59,7 @@ const Banner = () => {
             >
               <BigHeading
                 content={"A"}
-                styling={"text-[6.64906rem]  text-black -ml-20 -mt-1 "}
+                styling={"text-[6.64906rem]  text-black -ml-20 -mt-[0.35rem] "}
               />
               <div className={"flex items-center gap-1 tracking-wider"}>
                 <CustomPhoto
