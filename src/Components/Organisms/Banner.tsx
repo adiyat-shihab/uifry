@@ -67,10 +67,9 @@ const Banner = () => {
                   customStyle={"h-12 w-12 rotate-[24deg]"}
                 />
                 <div className={" "}>
-                  <SmallHeading
-                    content={"Achievement"}
-                    styling={"text-white text-[0.73519rem]"}
-                  />
+                  <h2 className="text-white text-[0.73519rem] capitalize  clashdisplaySemibold font-semibold leading-[1.75rem]">
+                    Achievement
+                  </h2>
 
                   <p
                     className={
@@ -92,11 +91,9 @@ const Banner = () => {
                   customStyle={"h-12 w-12 rotate-[24deg]"}
                 />
                 <div className={" gap-2"}>
-                  <SmallHeading
-                    content={"Finance"}
-                    styling={"text-white text-[0.73519rem]"}
-                  />
-
+                  <h2 className="text-white text-[0.73519rem] capitalize  clashdisplaySemibold font-semibold leading-[1.75rem]">
+                    Finance
+                  </h2>
                   <p
                     className={
                       "text-white text-[0.73519rem] opacity-100 capitalize "
@@ -132,10 +129,9 @@ const Banner = () => {
                 />
               </div>
               <div className={"px-4"}>
-                <SmallHeading
-                  content={"Uifry Premium"}
-                  styling={"text-black text-[0.73519rem]"}
-                />
+                <h2 className="text-black text-[0.73519rem] capitalize  clashdisplaySemibold font-semibold leading-[1.75rem]">
+                  Uifry Premium
+                </h2>
                 <p
                   className={
                     "text-black text-[0.73519rem] opacity-100 capitalize clashdisplayMedium "
