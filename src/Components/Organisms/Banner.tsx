@@ -1,4 +1,4 @@
-import { BigHeading } from "@/Components/Atoms/Heading";
+import { BigHeading, SmallHeading } from "@/Components/Atoms/Heading";
 import CustomPhoto from "@/Components/Atoms/CustomPhoto";
 import SubHeading from "@/Components/Atoms/SubHeading";
 import GroupBorderEclipse from "@/Components/Molecules/GroupBorderEclipse";
@@ -40,8 +40,111 @@ const Banner = () => {
               }
             >
               <CustomPhoto src={"play.svg"} customStyle={"w-[1.5rem]"} />{" "}
-              <SubHeading content={"watch video"} styling={" opacity-100"} />
+              <p
+                className={"opacity-100 text-xl capitalize clashdisplayMedium"}
+              >
+                Watch Video
+              </p>
             </button>
+          </div>
+          <div className={"mt-40 absolute"}>
+            <CustomPhoto
+              src={"star.svg"}
+              customStyle={"absolute h-12 w-12 -top-24 left-32 rotate-[45deg] "}
+            />
+            <div
+              className={
+                "bg-black -rotate-[28deg] rounded-tr rounded-br flex items-center w-[33.39469rem] justify-between px-6 pt-[0.5rem] z-40"
+              }
+            >
+              <BigHeading
+                content={"A"}
+                styling={"text-[6.64906rem]  text-black -ml-20 -mt-1 "}
+              />
+              <div className={"flex items-center gap-1 tracking-wider"}>
+                <CustomPhoto
+                  src={"trophy.svg"}
+                  customStyle={"h-12 w-12 rotate-[24deg]"}
+                />
+                <div className={" "}>
+                  <SmallHeading
+                    content={"Achievement"}
+                    styling={"text-white text-[0.73519rem]"}
+                  />
+
+                  <p
+                    className={
+                      "text-white text-[0.73519rem] opacity-100 capitalize "
+                    }
+                  >
+                    best finance app on playstore
+                  </p>
+                </div>
+              </div>
+              <div
+                className={
+                  "h-[2.53238rem] rotate-[30deg] w-[0.006rem] bg-white mr-4"
+                }
+              ></div>
+              <div className={"flex items-center gap-1 tracking-wider"}>
+                <CustomPhoto
+                  src={"money.svg"}
+                  customStyle={"h-12 w-12 rotate-[24deg]"}
+                />
+                <div className={" gap-2"}>
+                  <SmallHeading
+                    content={"Finance"}
+                    styling={"text-white text-[0.73519rem]"}
+                  />
+
+                  <p
+                    className={
+                      "text-white text-[0.73519rem] opacity-100 capitalize "
+                    }
+                  >
+                    Most popular accounting app
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className={
+                "w-[22.04675rem] h-[4.47869rem]  rounded-md -z-30 bg-[#FF5555] -rotate-[45.742deg] -skew-x-[20deg] absolute -right-[1.40rem] flex items-center justify-center top-[0.1rem] bg-noise bg-blend-soft-light"
+              }
+            >
+              <p
+                className={
+                  "text-black clashdisplaySemibold text-[0.73519rem]  capitalize "
+                }
+              >
+                make the best financial decisions
+              </p>
+            </div>
+            <div
+              className={
+                "w-[16rem] flex items-center justify-end h-[4.4375rem] bg-[#FF5555] bg-noise rounded-md bg-blend-soft-light absolute right-2 -z-40 -bottom-[7.75rem] "
+              }
+            >
+              <div className={"border-x-2 px-4 border-black"}>
+                <CustomPhoto
+                  src={"star.svg"}
+                  customStyle={"h-[4.4375rem] w-12    "}
+                />
+              </div>
+              <div className={"px-4"}>
+                <SmallHeading
+                  content={"Uifry Premium"}
+                  styling={"text-black text-[0.73519rem]"}
+                />
+                <p
+                  className={
+                    "text-black text-[0.73519rem] opacity-100 capitalize clashdisplayMedium "
+                  }
+                >
+                  free trial
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className={""}>
